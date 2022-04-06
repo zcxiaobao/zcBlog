@@ -1,0 +1,50 @@
+### 创建项目
+
+1. 首先使用 `npm init -y` 初始化仓库，生成 `package.json` 文件
+
+2. 配置 node 的入口文件，入口文件一般存放在 bin 目录中，因此我们创建一个 zc 文件
+
+```js
+#! /usr/bin/env node
+// 测试入口文件是否可以正常执行
+console.log("zc-cli");
+```
+
+3. 配置 package.json bin 字段，bin 字段指定入口文件为 zc
+
+```js
+{
+  "name": "zc-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/zc", // 指定入口文件
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+```
+
+bin 属性也支持别名配置：
+
+### npm link 链接到全局
+
+使用 npm link 链接到本地环境，就可以临时实现 zc-cli 全局调用。
+
+```js
+npm link // yarn link 也可以
+// 链接过程不允许重名存在，
+```
+
+运行 `npm link` 命令，得到下面结果:
+
+从上图的红框可以看到，link 命令已经将 zc-cli 暂时链接到本地 npm 下。下面我们来测试一下 zc-cli 命令是否可用。
+
+```
+zc-cli
+```
+
+运行命令，命令行成功打印出 `hello zc-cli`。
