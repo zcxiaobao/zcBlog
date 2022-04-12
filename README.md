@@ -1,3 +1,7 @@
+## JavaScript
+
+- [宝啊~，parseInt%20 的重重惊喜，你能经受的住吗](./JavaScript/宝啊~，parseInt%20的重重惊喜，你能经受的住吗.md)
+
 ## ES6
 
 - [遵循 PromiseA+规范，深入分析 Promise 实现细节(基础篇)](promise/遵循PromiseA+规范，深入分析Promise实现细节.md)
@@ -8,3 +12,11 @@
 
 - [光会使用 require 可不够，我们要知其根，洞其源](./require/node中require，你知道是怎么实现的吗.md)
 - [手把手带你搭建一个脚手架](./cli/手把手带你撸一个自己的cli脚手架.md)
+
+## 联系我
+
+我是  **战场小包** ，一个快速成长中的小前端，希望可以和大家一起进步。
+
+如果喜欢小包，可以在  **[掘金](https://juejin.cn/user/4424090519078430)**  关注我，同样也可以关注我的小小公众号——**[小包学前端](https://zcxiaobao.gitee.io/wx-demo/wx.png)**。
+
+![](./wx.png)
