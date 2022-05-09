@@ -7,6 +7,7 @@
 - [遵循 PromiseA+规范，深入分析 Promise 实现细节(基础篇)](promise/遵循PromiseA+规范，深入分析Promise实现细节.md)
 - [遵循 Promises/A+规范，手把手带你实现 Promise 源码(核心篇)](<./promise/遵循PromisesA+规范，手把手带你实现Promise源码(核心篇).md>)
 - [Promise 静态四兄弟，你能说清楚吗? | 优雅实现](./promise/promise.all%20allSettled%20race全解析.md)
+- [Promises-plus 规范与 ES6-Promise 有何区别](./promise/Promises-plus%20规范与ES6-Promise有何区别.md)
 
 ## nodejs
 
